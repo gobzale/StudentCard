@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: transparent;
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.contacts {
+  margin-top: 50px;
+}
+
+.social {
+  width: 100px;
+  height: 100px;
+}
+
+.boxcontacts >div {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 20px;
+}
+
+.boxcontacts img {
+  width: auto;
+}
+
+.boxvk:hover {
+  opacity: 0.9;
+}
+
+.boxtelegram:hover {
+  opacity: 0.9;
+}
+
+.boxinstagram:hover {
+  opacity: 0.9;
+}
+
+.boxgithub:hover {
+  opacity: 0.9;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 700px) {
+  .boxcontacts >div {
+    box-sizing: content-box;
+    padding: 10px 10px;
+  }
+}
+
+.bgCard {
+  background: aliceblue;
+}
+
+.table2 {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 2px solid #000;
+  padding: 10px
+}
+
+.table2 td {
+  padding: 10px;
+}
+
+.table2 td:first-child {
+  text-decoration: underline;
+}
+
+.table1 {
+  text-align: left;
+  padding-left: 40%;
+}
+
+.table1 td {
+  padding-right: 50px;
+}
+
+.avatar {
+  width: auto;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.6);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.infoText {
+  margin-left: 40px;
+}
+
+.infoText p:nth-child(odd) {
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.name {
+  margin-bottom: 25px;
+}
+
+.age {
+  margin-bottom: 25px;
+}
+
+.experience {
+  margin-bottom: 25px;
+}
+
+p {
+  margin-top: 0.5em; 
+  margin-bottom: 1em; 
+}
